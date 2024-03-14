@@ -12,7 +12,7 @@ const reducerFunction = (state = initialState, action) => {
     case REMOVE: {
       return {
         ...initialState,
-        todos: state.todos.filter((item) => item.id != action.payload),
+        todos: state.todos.filter((item) => item.id !== action.payload),
       };
     }
     default: {

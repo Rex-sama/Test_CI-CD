@@ -28,7 +28,7 @@ const ToDo = () => {
         <button onClick={onAddTodo}>Add</button>
       </div>
       <div>
-        {todos.length != 0 &&
+        {todos.length !== 0 &&
           todos.map((item) => {
             return (
               <div key={item.id}>
