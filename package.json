@@ -2,7 +2,7 @@
   "name": "typescript-practice",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rexsama.github.io/typescript-practice",
+  "homepage": "https://Rex-sama.github.io/Test_CI-CD",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
